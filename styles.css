@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Vazir', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+}
+
+.input {
+    margin-top: 10px;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 0 10px;
+    font-family: inherit;
+    transition: all .25s;
+}
+
+.input:focus {
+    border-color: #999;
+}
+
+.result-box {
+    padding: 20px 0;
+}
+
+.resultP {
+    display: none;
+    font-size: 16px;
+    font-weight: 500;
+}
